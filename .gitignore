@@ -1,0 +1,26 @@
+src/*.exe
+src/lanacoin
+src/lanacoind
+src/test_lanacoin
+src/build.h
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.lanacoin
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+lanacoin-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
